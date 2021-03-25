@@ -1,0 +1,131 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 854px;
+    background-image: url('http://cdn.lowgif.com/full/1beaf6e9837a32c1-tumblr-background-galaxy-gif.gif');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;    
+    height: 100vh;
+   
+  }
+  
+  .page-title {
+    font-family: 'Cinzel', serif;    
+    border-radius: 10rem;
+    color: #ffffff;
+    background-color: #3c86f9de;
+    width: 748px;
+    margin: auto;
+    border: 5px solid #3c86f9;
+   
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .calculadora {
+    width: 900px;
+    height:360px;    
+    margin: 0 auto;
+    position: relative;
+    
+  }
+  
+  h2 {
+    font-size:25px;
+    font-weight:bold;     
+    top: -126px;
+    left: auto;
+    text-align: center;
+    position: relative;
+  }
+  
+
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
+
+  img#devimg {
+    padding: 25px;
+    height: 54px;
+    width: 445px;
+    
+  }
+
+  img#image_shower {
+    border-radius: 20px;
+    border: 5px solid #3c84f996;
+    
+  }
+
+  section {
+  padding: 10px;
+  border-radius: 20px;
+  
+  }
+
+  select#p1 {
+    border: 2px solid #3c84f996;
+    padding: 5px;
+    border-radius: 10px;
+    width: 250px;
+    height: 40px;
+    cursor: pointer;
+    font-weight: bolder;
+    
+  }
+  
+input#botao {
+  padding: 5px;
+  background: #ffffff;  
+  border-radius: 10px;    
+  width: 90px;
+  height: 40px;
+  border: 2px solid #3c84f996;  
+  font-weight: bolder;  
+  cursor: pointer;
+  }
+
+  input#botao:hover {
+    background: #3c84f996;
+    color: white;
+    font-weight: bolder;
+  }
+
+  input#botao2 {
+    padding: 5px;
+    border-radius: 10px;    
+    height: 40px;
+    border: 2px solid #3c84f996;  
+    font-weight: bolder;  
+    cursor: pointer;
+    width: 201px;
+    top: -123px;
+    position: relative;
+    left: auto;
+    text-align: center;
+    BACKGROUND: #3c86f9;
+    color: white;
+    height: 36px;
+
+    }
+  
+    input#botao2:hover {
+      background: #3c84f996;
+      color: white;
+      font-weight: bolder;
+    }

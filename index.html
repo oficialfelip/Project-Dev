@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imersão Dev - Aula 02</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <img id="devimg" src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-calculadora.svg" class="page-logo"
+            alt="">
+        <h1 class="page-title">
+            Acerte o nome dos nossos instrutores
+        </h1>          
+        
+        <section> 
+                
+            <select id="p1">
+                <option value="nada">SELECIONE UMA OPÇÃO</option>                
+                <option value="guilherme">Guilherme Lima</option>
+                <option value="paulo">Paulo Silveira</option>
+                <option value="rafa">Rafaella Ballerini</option>
+                <option value="jeniblo">Jeniblo</option>                               
+            </select>
+            
+            <input type="button" value="   ENVIAR   " onclick="gerar()" id="botao"/>
+            
+            
+
+        </section> 
+        
+  
+        <div>  
+             <img id="image_shower" src="images/guilherme.jpg" alt="">        
+             <h2 id="resultado"></h2>
+             <input type="button" value="PRÓXIMO INSTRUTOR" onclick="get_random_image()" id="botao2"/>              
+            
+        </div>             
+
+                       
+    </div>    
+   
+   
+<script src="scripts.js"></script>
+</body>
+</html>
